@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ford Enter</title>
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/lancamento.css">
 </head>
+
 <body>
-    <header> 
+    <header>
         <img src="img/logo-ford-256.png" alt="Logo Ford Cabeçalho">
         <nav>
             <ul>
                 <li><a href="/index.html">Home</a></li>
-                <li><a href="/lancamento.html">Lancamento</a></li>
+                <li><a href="/lancamento.html">Lançamento</a></li>
                 <li><a href="/contato.html">Contato</a></li>
             </ul>
         </nav>
+        <div></div> <!--Vai ocupar o espaço  para dar a distancia e estilizar com o space-beteween-->
     </header>
 
     <div>
@@ -25,17 +29,61 @@
     <main>
         <section>
             <div class="videoPromocional">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/vQsryuNmsL0?si=nFErsRDzJfWOXsUg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/vQsryuNmsL0?si=nFErsRDzJfWOXsUg"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
 
             <div class="textoPromocional">
                 <p>
                     Eleve sua experiência de dirigir a um novo patamar com esta Ford Ranger 2022. Robusta, potente e com
                     tecnologia de ponta, esta picape é a companheira ideal para o trabalho e para o lazer. A picape Raça
-                    Forte do Brasil. A gente sempre esteve nessa terra e vai continuar nela. 
+                    Forte do Brasil. A gente sempre esteve nessa terra e vai continuar nela.
                 </p>
             </div>
         </section>
+        <table class="tabelaCarros">
+            <tr>
+                <td class="veiculo-card">
+                    <img src="/img/XL Cabine.jpg" alt="Veiculo1" class="veiculo-imagem">
+                    <div class="veiculoInformacao">
+                        <input type="checkbox" class="veiculo-checkbox">
+                        <div class="textoContainer">
+                            <h5>XL Cabine Simples 2.2 Diesel 4X4 MT 2022</h5>
+                            <p>Preço Sugerido: R$ 183.850</p>
+                        </div>
+                        <img src="/img/info.png" class="info-icon">
+                    </div>
+                </td>
+                <td class="veiculo-card">
+                    <img src="/img/xls 2.2 diesel.jpg" alt="Veiculo2" class="veiculo-imagem">
+                    <div class="veiculoInformacao">
+                        <input type="checkbox" class="veiculo-checkbox">
+                        <div class="textoContainer">
+                            <h5>XLS 2.2 Diesel 4x4 AT 2022</h5>
+                            <p>Preço Sugerido: R$ 220.690</p>
+                        </div>
+                        <img src="/img/info.png" class="info-icon">
+                    </div>
+                </td>
+
+                <td class="veiculo-card"> <!--Observar -->
+                    <img src="/img/storm.jpg" alt="Veiculo3" class="veiculo-imagem">
+                    <div class="veiculoInformacao">
+                        <input type="checkbox" class="veiculo-checkbox">
+                        <div class="textoContainer">
+                            <h5>Storm 2.2 Diesel 4X4 MT 2022</h5>
+                            <p>Preço Sugerido: R$ 183.850</p>
+                        </div>
+                        <img src="/img/info.png" class="info-icon">
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <button type="submit" class="submitBotao">
+            <span>Comparar Carros</span>
+        </button>
     </main>
 
     <footer>
@@ -54,4 +102,5 @@
 
     </footer>
 </body>
+
 </html>
