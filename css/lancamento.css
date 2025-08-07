@@ -26,7 +26,8 @@
 .tabelaCarros{
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
+    padding: 20px;
 }
 
 .veiculo-card{
@@ -108,3 +109,6 @@
     transform: translateY(-2px);
 }
 
+@media (max-width ){
+    
+}
