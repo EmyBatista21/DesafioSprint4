@@ -49,9 +49,9 @@
 .veiculoInformacao input[type="checkbox"]{
     width: 30px;
     height: 30px;
-    min-height: 20px;
-    border: 1px solid #000;
+    min-width: 20px;
     border-radius: 4px;
+    border: 1px solid #000;
     margin: 2px 10px 0 0;
     position: relative;
     flex-shrink: 0;
